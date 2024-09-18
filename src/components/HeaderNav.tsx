@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const Header = () => {
+const HeaderNav = () => {
     const [isVisible, setIsVisible] = useState<boolean>(false);
 
   // Function to toggle visibility
@@ -56,4 +56,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default HeaderNav
