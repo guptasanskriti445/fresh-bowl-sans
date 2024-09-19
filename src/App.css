@@ -4,3 +4,16 @@
   /* padding: 2rem; */
   text-align: center;
 }
+.scroll-image {
+  display: inline-block;
+  animation: scroll-right 10s linear infinite;
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

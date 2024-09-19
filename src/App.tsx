@@ -1,14 +1,18 @@
 import './App.css';
-import Home from './pages/home/Home';
+import { Outlet } from 'react-router-dom';
 import HeaderNav from './components/HeaderNav';
 import FooterBar from './components/FooterBar';
+import React from 'react';
+import FooterHero from './components/FooterHero';
 
 function App() {
   return (
     <>
      <HeaderNav />
-    <Home />
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="min-h-screen">
+          <Outlet />
+        </div>
+      <FooterHero />
       <FooterBar />
     </>
   );

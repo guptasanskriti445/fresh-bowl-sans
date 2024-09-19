@@ -1,3 +1,4 @@
+import React from "react"
 import heroImg1 from "../assets/hero1.png"
 const Hero = () => {
     
@@ -5,9 +6,9 @@ const Hero = () => {
     <>
     
 
-<div id="default-carousel" className="relative w-full" data-carousel="slide">
+<div id="default-carousel" className="relative w-full top-16" data-carousel="slide">
     {/* <!-- Carousel wrapper --> */}
-    <div className="relative h-56 overflow-hidden rounded-lg md:h-96 top-20">
+    <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
          {/* <!-- Item 1 --> */}
         <div className=" duration-700 ease-in-out" data-carousel-item>
             <img src={heroImg1} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." ></img>
