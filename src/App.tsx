@@ -9,7 +9,7 @@ function App() {
   return (
     <>
      <HeaderNav />
-    <div className="min-h-screen">
+       <div className="mt-20">
           <Outlet />
         </div>
       <FooterHero />

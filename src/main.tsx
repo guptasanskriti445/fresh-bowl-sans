@@ -8,6 +8,8 @@ import React from 'react'
 import Home from './pages/home/Home.js';
 import About from './pages/about/About.js';
 import Contact from './pages/contact/Contact.js';
+import Menu from './pages/menu/Menu.js';
+import OurPlans from './pages/ourplans/OurPlans.js';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact />,
+      },
+      {
+        path: '/menu',
+        element: <Menu />
+      },
+      {
+        path: '/our-plans',
+        element: <OurPlans />,
       }
     ],
   },]);
