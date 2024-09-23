@@ -1,12 +1,12 @@
 import React from "react"
-import heroImg1 from "../assets/rabbit.png" 
+import heroImg1 from "../assets/hero1.jpeg" 
 const Hero = () => {
     
   return (
     <>
     
 
-<div id="default-carousel" className="relative w-full top-16" data-carousel="slide">
+<div id="default-carousel" className="relative w-full" data-carousel="slide">
     {/* <!-- Carousel wrapper --> */}
     <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
          {/* <!-- Item 1 --> */}

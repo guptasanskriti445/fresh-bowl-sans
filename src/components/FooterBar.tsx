@@ -15,10 +15,10 @@ const FooterBar = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center">
-              <img src="/footerlogo.png" className="h-8 mr-3" alt="FlowBite Logo" />
+              <img src="/logofooter.png" className="h-20 mr-3" alt="FlowBite Logo" />
               {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> */}
             </Link>
-            <div className="flex space-x-3 mt-5">
+            <div className="flex space-x-3 mt-10">
             <a href="https://instagram.com" className="flex items-center">
               <img src="/instagram.png" className="h-8" alt="Instagram Logo" />
             </a>
