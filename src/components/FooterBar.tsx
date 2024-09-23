@@ -15,8 +15,8 @@ const FooterBar = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center">
-              <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="FlowBite Logo" />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+              <img src="/footerlogo.png" className="h-8 mr-3" alt="FlowBite Logo" />
+              {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span> */}
             </Link>
             <div className="flex space-x-3 mt-5">
             <a href="https://instagram.com" className="flex items-center">
