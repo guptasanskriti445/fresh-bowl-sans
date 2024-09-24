@@ -1,0 +1,28 @@
+[
+    {
+      "name": "Bonnie Green",
+      "role": "Visual Designer",
+      "image": "Designer1.jpeg"
+    },
+    {
+      "name": "John Doe",
+      "role": "Web Developer",
+      "image": "Designer2.jpeg"
+    },
+    {
+      "name": "Jane Smith",
+      "role": "Project Manager",
+      "image": "Designer3.jpeg"
+    },
+    {
+      "name": "Alice Johnson",
+      "role": "Marketing Specialist",
+      "image": "Designer4.jpeg"
+    },
+    {
+      "name": "Alice Johnson",
+      "role": "Marketing Specialist",
+      "image": "Designer4.jpeg"
+    }
+  ]
+  
