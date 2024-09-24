@@ -32,7 +32,9 @@ const About = () => {
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
           <h1 className="text-white text-3xl md:text-5xl font-bold mb-4">Our Mission</h1>
           <p className="text-white text-lg md:text-xl px-12">
+            <span className='text-lime-500 font-bold text-lg'>"</span>
             At The Fresh Bowl, our mission is to make healthy eating fun and tasty! We serve up delicious meals made from fresh, quality ingredients, inspiring our community to enjoy nutritious choices and embrace a happier, healthier lifestyle together—one bowl at a time!
+             <span className='text-lime-500 font-bold text-lg'>"</span>
           </p>
         </div>
       </div>
