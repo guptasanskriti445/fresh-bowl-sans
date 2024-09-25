@@ -11,6 +11,7 @@ import Contact from './pages/contact/Contact.js';
 import Menu from './pages/menu/Menu.js';
 import OurPlans from './pages/ourplans/OurPlans.js';
 import PrivacyPolicy from './pages/privacyPolicy / PrivacyPolicy.js';
+import TermsConditions from './pages/termsConditions/TermsConditions.js';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
       {
         path: '/privacy-policy',
         element: <PrivacyPolicy />,
+      },
+      {
+        path: '/terms-and-conditions',
+        element: <TermsConditions />,
       }
     ],
   },]);

@@ -66,7 +66,7 @@ const FooterBar = () => {
                   <Link to="/privacy-policy" className="hover:underline text-white">Privacy Policy</Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline text-white">Terms &amp; Conditions</a>
+                <Link to="/terms-and-conditions" className="hover:underline text-white">Terms &amp; Conditions</Link>
                 </li>
               </ul>
             </div>
