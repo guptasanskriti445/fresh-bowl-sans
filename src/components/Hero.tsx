@@ -1,5 +1,6 @@
 import React from "react"
 import brimg from "../assets/background-bg2.jfif" 
+import FooterHero from "./FooterHero"
 const Hero = () => {
     
   return (
@@ -26,6 +27,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
+      <FooterHero />
 
       {/* Features Section */}
       <section className="text-gray-600 body-font">

@@ -6,7 +6,7 @@
 }
 .scroll-image {
   display: inline-block;
-  animation: scroll-right 10s linear infinite;
+  animation: scroll-right 2s linear infinite;
 }
 
 @keyframes scroll-right {

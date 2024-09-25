@@ -12,7 +12,6 @@ function App() {
        <div className="mt-20">
           <Outlet />
         </div>
-      {/* <FooterHero /> */}
       <FooterBar />
     </>
   );
