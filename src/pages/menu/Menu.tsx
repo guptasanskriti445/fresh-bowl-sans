@@ -6,8 +6,6 @@ import Designer2 from "../../assets/Designer2.jpeg";
 import Designer3 from "../../assets/Designer3.jpeg";
 
 // Create a mapping of image names to imported images
-
-
 const imageMap = {
   "Designer1.jpeg": Designer3,
   "Designer2.jpeg": Designer2,
@@ -18,21 +16,20 @@ const imageMap = {
 // Define the type for the image map keys
 type ImageMapKeys = keyof typeof imageMap;
 
-// Then you can safely access it with a type assertion
 const Menu = () => {
   return (
     <div className="container mx-auto p-6">
-       <div className="text-center mb-10">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font text-emerald-950 mb-4">Menu</h1>
-            <div className="flex mt-6 justify-center">
-              <div className="w-16 h-1 rounded-full bg-lime-500 inline-flex"></div>
-            </div>
-          </div>
+      <div className="text-center mb-10">
+        <h1 className="sm:text-3xl text-2xl font-medium title-font text-emerald-950 mb-4">Menu</h1>
+        <div className="flex mt-6 justify-center">
+          <div className="w-16 h-1 rounded-full bg-lime-500 inline-flex"></div>
+        </div>
+      </div>
 
       {/* Responsive grid layout */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center'>
         {menuData.map(product => (
-          <div key={product.id} className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+          <div key={product.id} className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-transform transform hover:scale-105 hover:shadow-lg">
             <a href="#">
               <img className="p-8 rounded-t-lg" src={imageMap[product.image as ImageMapKeys]} alt={product.title} /> {/* Using image map */}
             </a>
@@ -53,7 +50,7 @@ const Menu = () => {
               <div className="flex items-center justify-between">
                 <span className="text-3xl font-bold text-emerald-950 dark:text-white">{product.price}</span>
                 <a href="#" className="text-white bg-lime-500 hover:bg-lime-600 focus:ring-4 focus:outline-none focus:ring-lime-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-lime-600 dark:hover:bg-lime-500 dark:focus:ring-lime-800">
-                Subscribe
+                  Subscribe
                 </a>
               </div>
             </div>

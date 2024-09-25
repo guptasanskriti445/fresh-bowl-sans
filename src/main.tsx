@@ -10,6 +10,7 @@ import About from './pages/about/About.js';
 import Contact from './pages/contact/Contact.js';
 import Menu from './pages/menu/Menu.js';
 import OurPlans from './pages/ourplans/OurPlans.js';
+import PrivacyPolicy from './pages/privacyPolicy / PrivacyPolicy.js';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: '/our-plans',
         element: <OurPlans />,
+      },
+      {
+        path: '/privacy-policy',
+        element: <PrivacyPolicy />,
       }
     ],
   },]);

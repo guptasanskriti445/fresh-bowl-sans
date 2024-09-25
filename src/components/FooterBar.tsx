@@ -63,7 +63,7 @@ const FooterBar = () => {
               <h2 className="mb-6 text-sm font-semibold text-white uppercase">Legal</h2>
               <ul className="text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline text-white">Privacy Policy</a>
+                  <Link to="/privacy-policy" className="hover:underline text-white">Privacy Policy</Link>
                 </li>
                 <li>
                   <a href="#" className="hover:underline text-white">Terms &amp; Conditions</a>
@@ -74,7 +74,7 @@ const FooterBar = () => {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-400 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" className="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
+          <span className="text-sm text-gray-400 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" className="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
           <div className="flex mt-4 sm:justify-center sm:mt-0 space-x-5">
             {/* Add proper SVGs or remove unused ones */}
           </div>
