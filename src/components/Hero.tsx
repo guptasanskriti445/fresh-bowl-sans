@@ -1,61 +1,81 @@
 import React from "react"
-import heroImg1 from "../assets/hero1.jpeg" 
+import brimg from "../assets/background-bg2.jfif" 
 const Hero = () => {
     
   return (
     <>
     
 
-<div id="default-carousel" className="relative w-full" data-carousel="slide">
-    {/* <!-- Carousel wrapper --> */}
-    <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-         {/* <!-- Item 1 --> */}
-        <div className=" duration-700 ease-in-out" data-carousel-item>
-            <img src={heroImg1} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." ></img>
+    <div>
+      {/* Welcome Section */}
+      <div className="relative h-80 md:h-96 lg:h-112 xl:h-128">
+        {/* Background image */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center" 
+          style={{ backgroundImage: `url(${brimg})` }}>
         </div>
-        {/* <!-- Item 2 --> */}
-        {/* <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-2.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div> */}
-        {/* <!-- Item 3 --> */}
-        {/* <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-3.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div> */}
-        {/* <!-- Item 4 --> */}
-        {/* <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-4.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div> */}
-        {/* <!-- Item 5 --> */}
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/docs/images/carousel/carousel-5.svg" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."></img>
+
+        {/* Transparent black background overlay */}
+        <div className="absolute inset-0 bg-emerald-950 opacity-60"></div>
+
+        {/* Centered message */}
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
+          <h1 className="text-white text-3xl md:text-5xl font-bold mb-4">Welcome to The Fresh Bowl!</h1>
+          <p className="text-white text-lg md:text-xl px-12">
+            Discover delicious meals made from fresh, quality ingredients that fit your lifestyle.
+          </p>
         </div>
+      </div>
+
+      {/* Features Section */}
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="text-center mb-10">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font text-emerald-950 mb-4">Features You'll Love</h1>
+            <div className="flex mt-6 justify-center">
+              <div className="w-16 h-1 rounded-full bg-lime-500 inline-flex"></div>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap justify-center -m-4">
+            {/* Feature Cards */}
+            <div className="p-4 md:w-1/3 w-full">
+              <div className="h-full bg-white border border-gray-200 rounded-lg shadow-md p-6 flex flex-col">
+                <h2 className="text-lg font-semibold text-emerald-950">Easy Subscription Options</h2>
+                <p className="mt-2 text-gray-600">Choose from a variety of meal plans tailored to your lifestyle. We've got you covered!</p>
+              </div>
+            </div>
+            <div className="p-4 md:w-1/3 w-full">
+              <div className="h-full bg-white border border-gray-200 rounded-lg shadow-md p-6 flex flex-col">
+                <h2 className="text-lg font-semibold text-emerald-950">Curated Menus</h2>
+                <p className="mt-2 text-gray-600">Enjoy a rotating selection of delicious dishes, thoughtfully prepared by our talented chefs.</p>
+              </div>
+            </div>
+            <div className="p-4 md:w-1/3 w-full">
+              <div className="h-full bg-white border border-gray-200 rounded-lg shadow-md p-6 flex flex-col">
+                <h2 className="text-lg font-semibold text-emerald-950">Quality Ingredients</h2>
+                <p className="mt-2 text-gray-600">We prioritize fresh, local ingredients in every meal, ensuring you savor every bite!</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap justify-center -m-4 mt-10">
+            <div className="p-4 md:w-1/3 w-full">
+              <div className="h-full bg-white border border-gray-200 rounded-lg shadow-md p-6 flex flex-col">
+                <h2 className="text-lg font-semibold text-emerald-950">Worry-Free Experience</h2>
+                <p className="mt-2 text-gray-600">Your privacy matters! We don’t collect any personal data, allowing you to enjoy your meals worry-free.</p>
+              </div>
+            </div>
+            <div className="p-4 md:w-1/3 w-full">
+              <div className="h-full bg-white border border-gray-200 rounded-lg shadow-md p-6 flex flex-col">
+                <h2 className="text-lg font-semibold text-emerald-950">Join Our Community</h2>
+                <p className="mt-2 text-gray-600">Join a community of food lovers embracing healthier lifestyles. Subscribe The Fresh Bowl today!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-    {/* <!-- Slider indicators --> */}
-    {/* <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-        <button type="button" className="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-    </div> */}
-    {/* <!-- Slider controls --> */}
-    {/* <button type="button" className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-            </svg>
-            <span className="sr-only">Previous</span>
-        </span>
-    </button> */}
-    {/* <button type="button" className="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-            </svg>
-            <span className="sr-only">Next</span>
-        </span>
-    </button> */}
-</div>
 
     </>
   )

@@ -1,5 +1,5 @@
 import React from 'react';
-import brimg from "../../assets/card-border.jpeg"; // Background image
+import brimg from "../../assets/background-bg3.jfif"; // Background image
 
 const TermsConditions = () => {
   return (
