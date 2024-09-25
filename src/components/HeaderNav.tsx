@@ -52,6 +52,7 @@ const HeaderNav = () => {
               <li>
                 <Link
                   to="/"
+                  onClick={toggleNavbar}
                   className={`block py-2 px-3 rounded md:p-0 ${isActive('/') 
                     ? 'text-white bg-lime-500 md:text-lime-500 md:bg-transparent dark:bg-lime-500 dark:text-white'
                     : 'text-emerald-950 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-lime-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'
@@ -63,6 +64,7 @@ const HeaderNav = () => {
               <li>
                 <Link
                   to="/our-plans"
+                  onClick={toggleNavbar}
                   className={`block py-2 px-3 rounded md:p-0 ${isActive('/our-plans') 
                     ? 'text-white bg-lime-500 md:text-lime-500 md:bg-transparent dark:bg-lime-500 dark:text-white'
                     : 'text-emerald-950 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-lime-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'
@@ -74,6 +76,7 @@ const HeaderNav = () => {
               <li>
                 <Link
                   to="/about-us"
+                  onClick={toggleNavbar}
                   className={`block py-2 px-3 rounded md:p-0 ${isActive('/about-us') 
                     ? 'text-white bg-lime-500 md:text-lime-500 md:bg-transparent dark:bg-lime-500 dark:text-white'
                     : 'text-emerald-950 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-lime-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'
@@ -85,6 +88,7 @@ const HeaderNav = () => {
               <li>
                 <Link
                   to="/menu"
+                  onClick={toggleNavbar}
                   className={`block py-2 px-3 rounded md:p-0 ${isActive('/menu') 
                     ? 'text-white bg-lime-500 md:text-lime-500 md:bg-transparent dark:bg-lime-500 dark:text-white'
                     : 'text-emerald-950 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-lime-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'
@@ -96,6 +100,7 @@ const HeaderNav = () => {
               <li>
                 <Link
                   to="/contact"
+                  onClick={toggleNavbar}
                   className={`block py-2 px-3 rounded md:p-0 ${isActive('/contact') 
                     ? 'text-white bg-lime-500 md:text-lime-500 md:bg-transparent dark:bg-lime-500 dark:text-white'
                     : 'text-emerald-950 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-lime-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent'

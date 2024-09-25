@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport",
+    "image": "Designer2.jpeg",
+    "price": "$599",
+    "rating": "5.0"
+  },
+  {
+    "id": 2,
+    "title": "Apple Watch SE GPS, Aluminium Case, Silver",
+    "image": "Designer3.jpeg",
+    "price": "$399",
+    "rating": "4.5"
+  },
+  {
+    "id": 3,
+    "title": "Apple Watch Series 6 GPS, Aluminium Case, Space Gray",
+    "image": "Designer2.jpeg",
+    "price": "$499",
+    "rating": "4.8"
+  },
+  {
+    "id": 4,
+    "title": "Apple Watch SE GPS, Aluminium Case, Silver",
+    "image": "Designer3.jpeg",
+    "price": "$399",
+    "rating": "4.5"
+  },
+  {
+    "id": 5,
+    "title": "Apple Watch Series 6 GPS, Aluminium Case, Space Gray",
+    "image": "Designer2.jpeg",
+    "price": "$499",
+    "rating": "4.8"
+  }
+]
