@@ -7,7 +7,7 @@ const FooterBar = () => {
       {/* Background image without opacity */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/bgimage.jpeg')" }}
+        style={{ backgroundImage: "url('/bgimge3.jpeg')" }}
       ></div>
 
       {/* Light black overlay */}
@@ -39,24 +39,25 @@ const FooterBar = () => {
 
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-emerald-900 uppercase">Resources</h2>
+              <h2 className="mb-6 text-sm font-semibold text-emerald-900 uppercase">The Fresh Bowl</h2>
               <ul className="text-gray-400 font-medium">
+
                 <li className="mb-4">
-                  <a href="https://flowbite.com/" className="hover:underline text-emerald-900">Flowbite</a>
+                  <a href="/about-us" className="hover:underline text-emerald-900">About Us</a>
                 </li>
                 <li>
-                  <a href="https://tailwindcss.com/" className="hover:underline text-emerald-900">Tailwind CSS</a>
+                  <a href="/contact" className="hover:underline text-emerald-900">Contact Us</a>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold text-emerald-900 uppercase">Follow us</h2>
+              <h2 className="mb-6 text-sm font-semibold text-emerald-900 uppercase">Quick Links</h2>
               <ul className="text-gray-400 font-medium">
                 <li className="mb-4">
-                  <a href="https://github.com/themesberg/flowbite" className="hover:underline text-emerald-900">Github</a>
+                  <a href="/our-plans" className="hover:underline text-emerald-900">Out Plans</a>
                 </li>
                 <li>
-                  <a href="https://discord.gg/4eeurUVvTy" className="hover:underline text-emerald-900">Discord</a>
+                  <a href="/menu" className="hover:underline text-emerald-900">Menu</a>
                 </li>
               </ul>
             </div>

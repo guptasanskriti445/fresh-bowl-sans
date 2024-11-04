@@ -27,7 +27,6 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <FooterHero />
 
       {/* Features Section */}
       <section className="text-gray-600 body-font">

@@ -17,3 +17,8 @@
     transform: translateX(100%);
   }
 }
+.card-image {
+  width: 100%;
+  height: auto; /* Adjust this based on your layout */
+  object-fit: cover; /* Ensures images cover their container */
+}
